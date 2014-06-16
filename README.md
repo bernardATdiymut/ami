@@ -14,11 +14,11 @@ To set up AMI for development on your system:
     - type `git clone https://github.com/joyent/node.git`
       - then `cd node`
     - compile and install Node like this:
-      - './configure'
-      - 'make'
-      - 'sudo make install'
+      - `./configure`
+      - `make`
+      - `sudo make install`
     - check if node was installed correctly:
-      - node -v
+      - `node -v`
   - Install NPM
     - Run the NPM install script:
        - `curl https://www.npmjs.org/install.sh | sudo sh`
@@ -28,13 +28,14 @@ To set up AMI for development on your system:
     - `npm install -g yo`
   - Install Grunt
     - `npm install -g grunt-cli`
-
-Install Bower
-
-    npm install -g bower
-
+  - Install Bower
+    - `npm install -g bower`
+  - Install Ruby and Compass
 
 http://www.rosehosting.com/blog/install-ruby-sass-and-compass/
+
+apt-get install rubygems
+gem install compass
 
 
 2. In a terminal, Clone the repository and navigate into the root directory. 
