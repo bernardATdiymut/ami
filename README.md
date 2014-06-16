@@ -8,8 +8,11 @@ The application is powered by JavaScript and runs entirely within the browser, i
 ## Set up
 To set up AMI for development on your system:
 
-1. Ensure that you have all dependencies installed. You will need to install [Yeoman](http://yeoman.io/), [grunt](http://gruntjs.com/getting-started), [bower](http://bower.io/), and their dependencies ([node.js & npm](http://nodejs.org/) primarily).
-1. In a terminal, Clone the repository and navigate into the root directory. 
+1. Ensure that you have all dependencies installed. You will need to install [Yeoman](http://yeoman.io/), [grunt](http://gruntjs.com/getting-started), [bower](http://bower.io/), and their dependencies ([node.js & npm](http://nodejs.org/) primarily). If you do not have them installed, install them later on in the process.
+2. In a terminal, Clone the repository and navigate into the root directory. 
+    - open a terminal
+    - make sure you're in your home directory ''cd ~''
+
 1. Run `npm install` to install the node components needed for the build environment
 1. Run `bower install` to install the frontend components that AMI relies upon.
 1. Then, run `grunt serve` to get a live development server running at localhost:9000
