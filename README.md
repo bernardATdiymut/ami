@@ -11,15 +11,14 @@ To set up AMI for development on your system:
 1. Ensure that you have all dependencies installed. You will need to install [Yeoman](http://yeoman.io/), [grunt](http://gruntjs.com/getting-started), [bower](http://bower.io/), and their dependencies ([node.js & npm](http://nodejs.org/) primarily). If you do not have them installed, install them later on in the process.
 
   - Install Node.js
-
-    git clone https://github.com/joyent/node.git
-    cd node
-    Compile and install Node like this:
-        ./configure
-        make
-        sudo make install
-    Check if node was installed correctly:
-        node -v
+    - type `git clone https://github.com/joyent/node.git`
+      - then `cd node`
+    - compile and install Node like this:
+      - './configure'
+      - 'make'
+      - 'sudo make install'
+    - check if node was installed correctly:
+      - node -v
 
 Install NPM
 
