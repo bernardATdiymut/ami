@@ -9,12 +9,57 @@ The application is powered by JavaScript and runs entirely within the browser, i
 To set up AMI for development on your system:
 
 1. Ensure that you have all dependencies installed. You will need to install [Yeoman](http://yeoman.io/), [grunt](http://gruntjs.com/getting-started), [bower](http://bower.io/), and their dependencies ([node.js & npm](http://nodejs.org/) primarily). If you do not have them installed, install them later on in the process.
+
+    - Install Node.js
+
+    git clone https://github.com/joyent/node.git
+    cd node
+    Compile and install Node like this:
+        ./configure
+        make
+        sudo make install
+    Check if node was installed correctly:
+        node -v
+
+Install NPM
+
+    Run the NPM install script:
+        curl https://www.npmjs.org/install.sh | sudo sh
+        And then check it works
+            npm -v
+
+Install Yeoman
+
+    npm install -g yo
+
+Install Grunt
+
+    npm install -g grunt-cli
+
+Install Bower
+
+    npm install -g bower
+
+
+
+
+
 2. In a terminal, Clone the repository and navigate into the root directory. 
     - open a terminal
-    - make sure you're in your home directory ''cd ~''
+    - make sure you're in your home directory `cd ~`
+    - type `git clone https://github.com/bernardATdiymut/ami.git`
 
-1. Run `npm install` to install the node components needed for the build environment
-1. Run `bower install` to install the frontend components that AMI relies upon.
+
+    git clone https://github.com/digitalstewards/ami.git
+    cd ami
+    Install bower requirements
+        bower install
+
+
+
+3. Still in the ami/ directory, to install the node components needed for the build environment
+    - `npm install`
+
 1. Then, run `grunt serve` to get a live development server running at localhost:9000
 1. Open up the app source code in your text editor of choice. Most editing will need to be done within the `app/` directory
 1. Once a file is saved, the server will reload the app in your browser, and changes can be previewed.
