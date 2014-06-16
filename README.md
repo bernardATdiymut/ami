@@ -20,14 +20,14 @@ To set up AMI for development on your system:
     - check if node was installed correctly:
       - node -v
   - Install NPM
-   - Run the NPM install script:
-   - `curl https://www.npmjs.org/install.sh | sudo sh`
-   - Then check it works
-    - `npm -v`
+    - Run the NPM install script:
+       - `curl https://www.npmjs.org/install.sh | sudo sh`
+    - Then check it works
+       - `npm -v`
   - Install Yeoman
-   - `npm install -g yo`
+    - `npm install -g yo`
   - Install Grunt
-   - `npm install -g grunt-cli`
+    - `npm install -g grunt-cli`
 
 Install Bower
 
