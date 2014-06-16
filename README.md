@@ -19,28 +19,22 @@ To set up AMI for development on your system:
       - 'sudo make install'
     - check if node was installed correctly:
       - node -v
-
-Install NPM
-
-    Run the NPM install script:
-        curl https://www.npmjs.org/install.sh | sudo sh
-        And then check it works
-            npm -v
-
-Install Yeoman
-
-    npm install -g yo
-
-Install Grunt
-
-    npm install -g grunt-cli
+  - Install NPM
+   - Run the NPM install script:
+   - `curl https://www.npmjs.org/install.sh | sudo sh`
+   - Then check it works
+    - `npm -v`
+  - Install Yeoman
+   - `npm install -g yo`
+  - Install Grunt
+   - `npm install -g grunt-cli`
 
 Install Bower
 
     npm install -g bower
 
 
-
+http://www.rosehosting.com/blog/install-ruby-sass-and-compass/
 
 
 2. In a terminal, Clone the repository and navigate into the root directory. 
