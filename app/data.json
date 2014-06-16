@@ -50,19 +50,19 @@
       },
       "companies":[
          {
-            "name":"Bell",
-            "formalName":"Bell Canada",
+            "name":"BT",
+            "formalName":"BT Group Plc",
             "address":{
-               "attention":"The Office of the Bell Privacy Ombudsman",
-               "address1":"160 Elgin St.",
-               "address2":null,
-               "city":"Ottawa",
-               "province":"ON",
-               "postalcode":"K2P 2C4",
-               "email":"privacy@bell.ca"
+               "attention":"The Office of the Chief Privacy Officer",
+               "address1":"BT Centre",
+               "address2":"81 Newgate Street",
+               "city":"London",
+               "province":"",
+               "postalcode":"EC1A 7AJ",
+               "email":"NOADDRESS@btplc.com"
             },
             "contactActor":{
-               "title":"Privacy Ombudsman"
+               "title":"Chief Privacy Officer"
             },
             "services":[
                {
